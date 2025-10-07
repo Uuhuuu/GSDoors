@@ -3,33 +3,36 @@ import {
   HeroAvatar,
   HeroSocial,
   Section,
-} from 'astro-boilerplate-components';
+} from "astro-boilerplate-components";
 
 const Hero = () => (
   <Section>
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Welcome to <GradientText>GS Doors</GradientText>
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
+          Our mission is simple: to ensure that premium quality and excellent
+          value go hand-in-hand, making it easy for you to find the perfect door
+          for your home or project. <br />
+          Make sure to follow our{" "}
           <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
+            Facebook
+          </a>{" "}
+          or{" "}
           <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+            Instagram
+          </a>{" "}
+          for more information and latest products.
         </>
       }
       avatar={
         <img
           className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          src="/assets/images/door-icon-10431.png"
           alt="Avatar image"
           loading="lazy"
         />
@@ -37,16 +40,10 @@ const Hero = () => (
       socialButtons={
         <>
           <a href="/">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Instagram icon"
-            />
+            <HeroSocial src="/assets/images/ig.png" alt="Instagram icon" />
           </a>
           <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
+            <HeroSocial src="/assets/images/fb.png" alt="Facebook icon" />
           </a>
           {/*           <a href="/">
             <HeroSocial

@@ -110,8 +110,8 @@ All commands are run from the root of the project, from a terminal:
 | `npm run clean`           | Remove `./dist` folder                       |
 | `npm run lint`            | Run ESLint and report styling error          |
 | :----------------         | :------------------------------------------- |
-| `git add .`               | Run ESLint and report styling error          |
-| `git commit -m "fix: x"`  | Run ESLint and report styling error          |
-| `git push -u origin main` | Run ESLint and report styling error          |
+| `git add .`               |                                              |
+| `git commit -m "fix: x"`  |                                              |
+| `git push -u origin main` |                                              |
 
 # GSDoors
