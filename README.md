@@ -101,13 +101,17 @@ Clone this repository on own GitHub account and deploy to Netlify:
 
 All commands are run from the root of the project, from a terminal:
 
-| Command           | Action                                       |
-| :---------------- | :------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:4321`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
-| `npm run clean`   | Remove `./dist` folder                       |
-| `npm run lint`    | Run ESLint and report styling error          |
+| Command                   | Action                                       |
+| :------------------------ | :------------------------------------------- |
+| `npm install`             | Installs dependencies                        |
+| `npm run dev`             | Starts local dev server at `localhost:4321`  |
+| `npm run build`           | Build your production site to `./dist/`      |
+| `npm run preview`         | Preview your build locally, before deploying |
+| `npm run clean`           | Remove `./dist` folder                       |
+| `npm run lint`            | Run ESLint and report styling error          |
+| :----------------         | :------------------------------------------- |
+| `git add .`               | Run ESLint and report styling error          |
+| `git commit -m "fix: x"`  | Run ESLint and report styling error          |
+| `git push -u origin main` | Run ESLint and report styling error          |
 
 # GSDoors
