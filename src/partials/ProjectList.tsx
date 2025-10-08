@@ -4,63 +4,64 @@ import {
   Project,
   Section,
   Tags,
-} from 'astro-boilerplate-components';
+} from "astro-boilerplate-components";
 
 const ProjectList = () => (
   <Section
     title={
       <>
-        Recent <GradientText>Projects</GradientText>
+        <GradientText>Contact</GradientText>
       </>
     }
   >
-    <div className="flex flex-col gap-6">
+    {/* Invitation / contact intro */}
+    <p className="mb-5 text-xl text-gray-700 dark:text-gray-300">
+      If you would like to buy products or ask about selling items, please
+      contact us using one of the methods below
+    </p>
+
+    <div className="flex flex-col gap-6 text-xl">
+      {/* Phone contact */}
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+        name="Phone"
+        description="+48 123 456 789"
+        link="tel:+48123456789"
         img={{
-          src: '/assets/images/project-web-design.png',
-          alt: 'Project Web Design',
+          src: "/assets/images/phone1.png",
+          alt: "Contact Phone",
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Call</Tags>
+            <Tags color={ColorTags.SKY}>WhatsApp</Tags>
           </>
         }
       />
+
+      {/* Address / location */}
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        name="Address"
+        description="Main Street 12, 00-000 Warsaw, Poland"
+        link="https://www.google.com/maps/search/?api=1&query=Main+Street+12+Warsaw"
+        img={{ src: "/assets/images/project-maps.png", alt: "Location Map" }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+            <Tags color={ColorTags.INDIGO}>Visit</Tags>
+            <Tags color={ColorTags.EMERALD}>Pickup</Tags>
           </>
         }
       />
+
+      {/* Email contact */}
       <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        name="Email"
+        description="seller@example.com"
+        link="mailto:seller@example.com"
+        img={{ src: "/assets/images/email.png", alt: "Contact Email" }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.YELLOW}>E-mail</Tags>
+            <Tags color={ColorTags.VIOLET}>Support</Tags>
           </>
         }
       />

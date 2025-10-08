@@ -1,0 +1,24 @@
+---
+import { ProjectList } from '@/partials/ProjectList';
+import Base from '@/templates/Base.astro';
+import { AppConfig } from '@/utils/AppConfig';
+
+const title = `Contact - ${AppConfig.site_name}`;
+const description = 'Contact us about our doors.';
+---
+<Base head={{ title, description }}>
+  <!-- <section class="max-w-3xl mx-auto p-6">
+    <h1 class="text-3xl font-bold mb-4">Contact</h1>
+    <p class="mb-6">Email: <a href="mailto:info@example.com" class="text-cyan-400">info@example.com</a></p>
+
+    <form action="#" method="post" class="space-y-4">
+      <input name="name" placeholder="Name" class="w-full p-3 rounded bg-slate-800" />
+      <input name="email" type="email" placeholder="Email" class="w-full p-3 rounded bg-slate-800" />
+      <textarea name="message" placeholder="Message" class="w-full p-3 rounded bg-slate-800" rows="5"></textarea>
+      <button class="px-4 py-2 bg-cyan-500 rounded">Send</button>
+    </form>
+  </section> -->
+
+  <!-- Reuse the same ProjectList component -->
+  <ProjectList />
+</Base>
