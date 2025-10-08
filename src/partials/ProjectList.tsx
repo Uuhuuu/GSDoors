@@ -17,7 +17,7 @@ const ProjectList = () => (
     {/* Invitation / contact intro */}
     <p className="mb-5 text-xl text-gray-700 dark:text-gray-300">
       If you would like to buy products or ask about selling items, please
-      contact us using one of the methods below
+      contact us using one of the methods below:
     </p>
 
     <div className="flex flex-col gap-6 text-xl">
@@ -54,7 +54,7 @@ const ProjectList = () => (
 
       {/* Email contact */}
       <Project
-        name="Email"
+        name="E-mail"
         description="seller@example.com"
         link="mailto:seller@example.com"
         img={{ src: "/assets/images/email.png", alt: "Contact Email" }}

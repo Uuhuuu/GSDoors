@@ -26,7 +26,7 @@ const Hero = () => (
           <a className="text-cyan-400 hover:underline" href="/">
             Instagram
           </a>{" "}
-          for more information and latest products.
+          for the latest updates and new products.
         </>
       }
       avatar={
@@ -39,10 +39,10 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="/">
+          <a className="mx-2" href="/">
             <HeroSocial src="/assets/images/ig.png" alt="Instagram icon" />
           </a>
-          <a href="/">
+          <a className="mx-2" href="/">
             <HeroSocial src="/assets/images/fb.png" alt="Facebook icon" />
           </a>
           {/*           <a href="/">

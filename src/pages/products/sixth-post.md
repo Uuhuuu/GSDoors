@@ -1,10 +1,10 @@
 ---
-layout: '@/templates/BasePost.astro'
+layout: "@/templates/BasePost.astro"
 title: Typography example
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.
 pubDate: 2020-02-06T00:00:00Z
-imgSrc: '/assets/images/image-post.jpeg'
-imgAlt: 'Image post'
+imgSrc: "/assets/images/pdoor2.jpg"
+imgAlt: "Image post"
 ---
 
 This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
@@ -118,7 +118,7 @@ Some text to show that the reference links can follow later.
 Images included in _\_posts_ folder are lazy loaded.
 
 Inline-style:
-![alt text](/src/images/random.jpeg 'Logo Title Text 1')
+![alt text](/src/images/random.jpeg "Logo Title Text 1")
 
 ## Table
 
@@ -136,7 +136,8 @@ Inline-style:
 ## Syntax highlight
 
 ```javascript
-var s = 'JavaScript syntax highlighting'; var s = 'JavaScript syntax highlighting';
+var s = "JavaScript syntax highlighting";
+var s = "JavaScript syntax highlighting";
 alert(s);
 ```
 
