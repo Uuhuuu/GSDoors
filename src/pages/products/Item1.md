@@ -1,7 +1,7 @@
 ---
 layout: "@/templates/BasePost.astro"
-title: Door 1
-description: Text for door description
+title: Siema Stasiek
+description: Zobacz tu
 pubDate: 2023-02-03T00:00:00Z
 imgSrc: "/assets/images/pdoor2.jpg"
 imgAlt: "Item 1"
@@ -11,9 +11,9 @@ imgAlt: "Item 1"
 
 ### Informations:
 
-Tu opis produktu.
+Tu może być opis produktu.
 
-### Inne przykładowe szablony, które mogą posłużyć jako szkielet nowej strony internetowej:
+### Zobacz przykładowe szablony, które mogą posłużyć jako szkielet nowej strony internetowej:
 
 1. [Szablon 1](https://demos.creative-tim.com/astro-ecommerce/ "Szablon 1")
 
