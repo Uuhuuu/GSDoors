@@ -1,7 +1,7 @@
 ---
 layout: "@/templates/BasePost.astro"
-title: Typography example
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.
+title: Wygląd tekstu
+description: Jak może wyglądać tekst?
 pubDate: 2020-02-06T00:00:00Z
 imgSrc: "/assets/images/pdoor2.jpg"
 imgAlt: "Image post"
