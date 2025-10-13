@@ -24,8 +24,8 @@ const ProjectList = () => (
       {/* Phone contact */}
       <Project
         name="Phone"
-        description="+48 123 456 789"
-        link="tel:+48123456789"
+        description="+13473588981"
+        link="tel:+13473588981"
         img={{
           src: "/assets/images/phone1.png",
           alt: "Contact Phone",
@@ -39,24 +39,24 @@ const ProjectList = () => (
       />
 
       {/* Address / location */}
-      <Project
-        name="Address"
-        description="Main Street 12, 00-000 Warsaw, Poland"
-        link="https://www.google.com/maps/search/?api=1&query=Main+Street+12+Warsaw"
-        img={{ src: "/assets/images/project-maps.png", alt: "Location Map" }}
-        category={
-          <>
-            <Tags color={ColorTags.INDIGO}>Visit</Tags>
-            <Tags color={ColorTags.EMERALD}>Pickup</Tags>
-          </>
-        }
-      />
+      {/*       <Project
+          name="Address"
+          description="Main Street 12, 00-000 Warsaw, Poland"
+          link="https://www.google.com/maps/search/?api=1&query=Main+Street+12+Warsaw"
+          img={{ src: "/assets/images/project-maps.png", alt: "Location Map" }}
+          category={
+            <>
+              <Tags color={ColorTags.INDIGO}>Visit</Tags>
+              <Tags color={ColorTags.EMERALD}>Pickup</Tags>
+            </>
+          }
+        /> */}
 
       {/* Email contact */}
       <Project
         name="E-mail"
-        description="seller@example.com"
-        link="mailto:seller@example.com"
+        description="gsdoors.net@gmail.com"
+        link="mailto:gsdoors.net@gmail.com"
         img={{ src: "/assets/images/email.png", alt: "Contact Email" }}
         category={
           <>
