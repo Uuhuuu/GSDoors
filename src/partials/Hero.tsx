@@ -30,20 +30,22 @@ const Hero = () => (
         </>
       }
       avatar={
-        <img
-          className="h-80 w-64"
-          src="/assets/images/door-icon-10431.png"
-          alt="Avatar image"
-          loading="lazy"
-        />
+        <div className="inline-block rounded-lg overflow-hidden border-4 border-white shadow-lg">
+          <img
+            className="h-80 w-64 object-cover"
+            src="/assets/images/door-icon.jpg"
+            alt="Drzwi – Twój sklep GS Doors"
+            loading="lazy"
+          />
+        </div>
       }
       socialButtons={
         <>
-          <a className="mx-2" href="/">
-            <HeroSocial src="/assets/images/ig.png" alt="Instagram icon" />
-          </a>
-          <a className="mx-2" href="/">
+          <a className="mx-3 pb-" href="/">
             <HeroSocial src="/assets/images/fb.png" alt="Facebook icon" />
+          </a>
+          <a className="mx-3 pb-4" href="/">
+            <HeroSocial src="/assets/images/ig2.png" alt="Instagram icon" />
           </a>
           {/*           <a href="/">
             <HeroSocial

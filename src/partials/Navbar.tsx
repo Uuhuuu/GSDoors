@@ -40,8 +40,8 @@ const Navbar = () => (
 
       <NavMenu>
         <NavMenuItem href="/products/">Products</NavMenuItem>
-        <NavMenuItem href="/">Instagram</NavMenuItem>
         <NavMenuItem href="/">Facebook</NavMenuItem>
+        <NavMenuItem href="/">Instagram</NavMenuItem>
         <NavMenuItem href="/contact/">Contact</NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>

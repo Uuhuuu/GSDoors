@@ -16,7 +16,7 @@ const ProjectList = () => (
   >
     {/* Invitation / contact intro */}
     <p className="mb-5 text-xl text-gray-700 dark:text-gray-300">
-      If you would like to buy products or ask about selling items, please
+      If you would like to buy products or ask about specific item, please
       contact us using one of the methods below:
     </p>
 
