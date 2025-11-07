@@ -19,7 +19,7 @@ const RecentProducts = (props: IRecentPostsProps) => (
         </div>
 
         <div className="text-sm">
-          <a href="/products/">Whole offer →</a>
+          <a href="/products/">Whole offer ⇨</a>
         </div>
       </div>
     }
