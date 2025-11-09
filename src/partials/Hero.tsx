@@ -41,10 +41,16 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a className="mx-3 pb-5" href="/">
+          <a
+            className="mx-3 pb-5"
+            href="https://www.facebook.com/share/17SL6wRBiN"
+          >
             <HeroSocial src="/assets/images/fb.png" alt="Facebook icon" />
           </a>
-          <a className="mx-3 pb-5" href="/">
+          <a
+            className="mx-3 pb-5"
+            href="https://www.instagram.com/gsdoors_?igsh=dTFrczJmZ2VpOGJl"
+          >
             <HeroSocial src="/assets/images/ig2.png" alt="Instagram icon" />
           </a>
           {/*           <a href="/">
