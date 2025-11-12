@@ -12,3 +12,8 @@ module.exports = {
     require('@tailwindcss/typography'),
   ],
 };
+/* theme: {
+    colors: {
+      primary: '#123456',
+      secondary: '#abcdef',
+    }, */
