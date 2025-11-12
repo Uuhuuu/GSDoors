@@ -19,11 +19,11 @@ const Hero = () => (
           value go hand-in-hand, making it easy for you to find the perfect door
           for your home or project. <br />
           Make sure to follow our{" "}
-          <a className="text-cyan-400 hover:underline" href="/">
+          <a className="text-cyan-400 hover:underline" href="https://www.facebook.com/share/17SL6wRBiN">
             Facebook
           </a>{" "}
           or{" "}
-          <a className="text-cyan-400 hover:underline" href="/">
+          <a className="text-cyan-400 hover:underline" href="https://www.instagram.com/gsdoors_?igsh=dTFrczJmZ2VpOGJl">
             Instagram
           </a>{" "}
           for the latest updates and new products.
