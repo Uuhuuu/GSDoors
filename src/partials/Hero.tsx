@@ -19,11 +19,19 @@ const Hero = () => (
           value go hand-in-hand, making it easy for you to find the perfect door
           for your home or project. <br />
           Make sure to follow our{" "}
-          <a className="text-cyan-400 hover:underline" href="https://www.facebook.com/share/17SL6wRBiN">
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://www.facebook.com/share/17SL6wRBiN"
+            target="_blank"
+          >
             Facebook
           </a>{" "}
           or{" "}
-          <a className="text-cyan-400 hover:underline" href="https://www.instagram.com/gsdoors_?igsh=dTFrczJmZ2VpOGJl">
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://www.instagram.com/gsdoors_?igsh=dTFrczJmZ2VpOGJl"
+            target="_blank"
+          >
             Instagram
           </a>{" "}
           for the latest updates and new products.
@@ -44,12 +52,14 @@ const Hero = () => (
           <a
             className="mx-3 pb-5"
             href="https://www.facebook.com/share/17SL6wRBiN"
+            target="_blank"
           >
             <HeroSocial src="/assets/images/fb.png" alt="Facebook icon" />
           </a>
           <a
             className="mx-3 pb-5"
             href="https://www.instagram.com/gsdoors_?igsh=dTFrczJmZ2VpOGJl"
+            target="_blank"
           >
             <HeroSocial src="/assets/images/ig2.png" alt="Instagram icon" />
           </a>
