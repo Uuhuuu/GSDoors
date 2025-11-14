@@ -55,8 +55,8 @@ const ProjectList = () => (
       {/* Email contact */}
       <Project
         name="E-mail"
-        description="gsdoors.net@gmail.com"
-        link="mailto:gsdoors.net@gmail.com"
+        description="gsdoors.org@gmail.com"
+        link="mailto:gsdoors.org@gmail.com"
         img={{ src: "/assets/images/email.png", alt: "Contact Email" }}
         category={
           <>

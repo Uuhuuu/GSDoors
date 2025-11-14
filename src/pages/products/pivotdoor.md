@@ -61,40 +61,40 @@ imgAlt: ""
     visibility: hidden;
     transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
   }
-  #backToTop.show {
-    opacity: 1;
-    visibility: visible;
+    #backToTop.show {
+      opacity: 1;
+      visibility: visible;
   }
 </style>
 
 <div class="gallery">
   <figure>
-    <img src="/assets/images/pd/pd1.jpg" alt="pd1" title="pd1"/>
+    <img src="/assets/images/pd/pd1.jpg" alt="pd1" title="pd1" loading="lazy" decoding="async"/>
     <figcaption>PD1</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/pd/pd2.jpg" alt="pd2" title="pd2"/>
+    <img src="/assets/images/pd/pd2.jpg" alt="pd2" title="pd2" loading="lazy" decoding="async"/>
     <figcaption>PD2</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/pd/pd3.jpg" alt="pd3" title="pd3"/>
+    <img src="/assets/images/pd/pd3.jpg" alt="pd3" title="pd3" loading="lazy" decoding="async"/>
     <figcaption>PD3</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/pd/pd4.jpg" alt="pd4" title="pd4"/>
+    <img src="/assets/images/pd/pd4.jpg" alt="pd4" title="pd4" loading="lazy" decoding="async"/>
     <figcaption>PD4</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/pd/pd5.jpg" alt="pd5" title="pd5"/>
+    <img src="/assets/images/pd/pd5.jpg" alt="pd5" title="pd5" loading="lazy" decoding="async"/>
     <figcaption>PD5</figcaption>
         <hr>
   </figure>
   <figure>
-    <img src="/assets/images/pd/pd6.jpg" alt="pd6" title="pd6"/>
+    <img src="/assets/images/pd/pd6.jpg" alt="pd6" title="pd6" loading="lazy" decoding="async"/>
     <figcaption>PD6</figcaption>
     <hr>
   </figure>

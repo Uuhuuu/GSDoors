@@ -66,73 +66,73 @@ imgAlt: ""
 </style>
 <div class="gallery">
   <figure>
-    <img src="/assets/images/sd/sd1.jpg" alt="SD1" title="SD1"/>
+    <img src="/assets/images/sd/sd1.jpg" alt="SD1" title="SD1" loading="lazy" decoding="async"/>
     <figcaption>SD1</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/sd/sd2.jpg" alt="SD2" title="SD2"/>
+    <img src="/assets/images/sd/sd2.jpg" alt="SD2" title="SD2" loading="lazy" decoding="async"/>
     <figcaption>SD2</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/sd/sd3.jpg" alt="SD3" title="SD3"/>
+    <img src="/assets/images/sd/sd3.jpg" alt="SD3" title="SD3" loading="lazy" decoding="async"/>
     <figcaption>SD3</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/sd/sd4.jpg" alt="SD4" title="SD4"/>
+    <img src="/assets/images/sd/sd4.jpg" alt="SD4" title="SD4" loading="lazy" decoding="async"/>
     <figcaption>SD4</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/sd/sd5.jpg" alt="SD5" title="SD5"/>
+    <img src="/assets/images/sd/sd5.jpg" alt="SD5" title="SD5" loading="lazy" decoding="async"/>
     <figcaption>SD5</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/sd/sd6.jpg" alt="SD6" title="SD6"/>
+    <img src="/assets/images/sd/sd6.jpg" alt="SD6" title="SD6" loading="lazy" decoding="async"/>
     <figcaption>SD6</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/sd/sd7.jpg" alt="SD7" title="SD7"/>
+    <img src="/assets/images/sd/sd7.jpg" alt="SD7" title="SD7" loading="lazy" decoding="async"/>
     <figcaption>SD7</figcaption>
     <hr>
   </figure>
 
   <figure>
-    <img src="/assets/images/sd/sdc1.jpg" alt="SDC1" title="SDC1"/>
+    <img src="/assets/images/sd/sdc1.jpg" alt="SDC1" title="SDC1" loading="lazy" decoding="async"/>
     <figcaption>SDC1</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/sd/sdc2.jpg" alt="SDC2" title="SDC2"/>
+    <img src="/assets/images/sd/sdc2.jpg" alt="SDC2" title="SDC2" loading="lazy" decoding="async"/>
     <figcaption>SDC2</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/sd/sdc3.jpg" alt="SDC3" title="SDC3"/>
+    <img src="/assets/images/sd/sdc3.jpg" alt="SDC3" title="SDC3" loading="lazy" decoding="async"/>
     <figcaption>SDC3</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/sd/sdc4.jpg" alt="SDC4" title="SDC4"/>
+    <img src="/assets/images/sd/sdc4.jpg" alt="SDC4" title="SDC4" loading="lazy" decoding="async"/>
     <figcaption>SDC4</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/sd/sdc5.jpg" alt="SDC5" title="SDC5"/>
+    <img src="/assets/images/sd/sdc5.jpg" alt="SDC5" title="SDC5" loading="lazy" decoding="async"/>
     <figcaption>SDC5</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/sd/sdc6.jpg" alt="SDC6" title="SDC6"/>
+    <img src="/assets/images/sd/sdc6.jpg" alt="SDC6" title="SDC6" loading="lazy" decoding="async"/>
     <figcaption>SDC6</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/sd/sdc7.jpg" alt="SDC7" title="SDC7"/>
+    <img src="/assets/images/sd/sdc7.jpg" alt="SDC7" title="SDC7" loading="lazy" decoding="async"/>
     <figcaption>SDC7</figcaption>
     <hr>
   </figure>

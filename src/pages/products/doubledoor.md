@@ -67,22 +67,22 @@ imgAlt: ""
 
 <div class="gallery">
   <figure>
-    <img src="/assets/images/dd/dd1.jpg" alt="DD1" title="DD1"/>
+    <img src="/assets/images/dd/dd1.jpg" alt="DD1" title="DD1" loading="lazy" decoding="async"/>
     <figcaption>DD1</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/dd/dd2.jpg" alt="DD2" title="DD2"/>
+    <img src="/assets/images/dd/dd2.jpg" alt="DD2" title="DD2" loading="lazy" decoding="async"/>
     <figcaption>DD2</figcaption>
         <hr>
   </figure>
   <figure>
-    <img src="/assets/images/dd/dd3.jpg" alt="DD3" title="DD3"/>
+    <img src="/assets/images/dd/dd3.jpg" alt="DD3" title="DD3" loading="lazy" decoding="async"/>
     <figcaption>DD3</figcaption>
     <hr>
   </figure>
   <figure>
-    <img src="/assets/images/dd/dd4.png" alt="DD4" title="DD4"/>
+    <img src="/assets/images/dd/dd4.png" alt="DD4" title="DD4" loading="lazy" decoding="async"/>
     <figcaption>DD4</figcaption>
   <hr>
   </figure>
