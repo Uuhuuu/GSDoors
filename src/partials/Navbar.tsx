@@ -41,7 +41,7 @@ const Navbar = () => (
       <NavMenu>
         <NavMenuItem href="/products/">Products</NavMenuItem>
         <NavMenuItem
-          href="https://www.facebook.com/share/17SL6wRBi"
+          href="https://www.facebook.com/share/17SL6wRBiN"
           target="_blank"
         >
           Facebook
