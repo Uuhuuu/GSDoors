@@ -38,7 +38,7 @@ const Hero = () => (
         </>
       }
       avatar={
-        <div className="inline-block rounded-lg overflow-hidden border-4 border-white shadow-lg">
+        <div className="inline-block rounded-lg overflow-hidden border-4 border-ramka-50 shadow-lg">
           <img
             className="h-80 w-64 object-cover"
             src="/assets/images/door-icon.jpg"
