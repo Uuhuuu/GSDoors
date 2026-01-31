@@ -15,7 +15,10 @@ const RecentProducts = (props: IRecentPostsProps) => (
     title={
       <div className="flex items-baseline justify-between">
         <div>
-          Available <GradientText>Products</GradientText>
+          Available{" "}
+          <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">
+            Products
+          </span>
         </div>
 
         <div className="text-sm">

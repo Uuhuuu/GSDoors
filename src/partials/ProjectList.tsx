@@ -10,7 +10,9 @@ const ProjectList = () => (
   <Section
     title={
       <>
-        <GradientText>Contact</GradientText>
+        <span className="bg-gradient-to-r from-amber-600 to-amber-400 bg-clip-text text-transparent">
+          Contact
+        </span>
       </>
     }
   >
