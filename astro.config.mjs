@@ -16,5 +16,12 @@ export default defineConfig({
       theme: "monokai",
     },
   },
-  integrations: [react(), tailwind({}), sitemap(), robotsTxt()],
+  integrations: [
+    react(),
+    tailwind({}),
+    sitemap(),
+    robotsTxt({
+      sitemap: "https://gsdoors.org/sitemap.xml", // This forces the correct name
+    }),
+  ],
 });
