@@ -9,7 +9,7 @@ import {
 const Navbar = () => (
   <Section>
     <NavbarTwoColumns>
-      <a href="/" className="navbar-logo">
+      <a href="/" className="navbar-logo" aria-label="GS Doors home">
         <Logo
           icon={
             <svg

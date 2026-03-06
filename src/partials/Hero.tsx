@@ -1,5 +1,5 @@
 import {
-  GradientText,
+  // GradientText,
   HeroAvatar,
   HeroSocial,
   Section,
@@ -45,7 +45,7 @@ const Hero = () => (
           <img
             className="h-80 w-64 object-cover"
             src="/assets/images/door-icon.jpg"
-            alt="Drzwi – Twój sklep GS Doors"
+            alt="Door icon"
             loading="lazy"
           />
         </div>

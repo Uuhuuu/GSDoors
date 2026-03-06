@@ -29,7 +29,7 @@ module.exports = {
           600: "#dc2626",
         },
         cyan: {
-          400: "#ec9f00c9 ", // ← link hover
+          400: "#ec9f00c9 ", // ← Social links color
         },
         slate: {
           800: "#361a09", // ← Product window bg
